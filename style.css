@@ -1,0 +1,66 @@
+li{
+    color: white;
+    margin: 8px;
+    padding: 0px;
+    font-size: 21px;
+
+}
+.list-group {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+
+}
+.banner{
+    position: absolute;
+    width: 100%;
+    margin-bottom: 12px;
+    padding-top: 1px;
+    z-index: -1;
+    opacity: 0.8;
+}
+.brandname{
+    font-weight: bold;
+    font-size: 30px;
+}
+.cards{
+display: flex;
+padding: auto;
+justify-content: center;
+margin-top: 12px;
+padding: 100px;
+
+}
+/* .cards.card{
+    margin:70px 56px;
+} */
+/* .my-2 {
+    margin-top: 10.5rem!important;
+    margin-bottom: 10.5rem!important;
+}
+.mx-2 {
+    margin-right: 30.5rem!important;
+    margin-left: 33.5rem!important;
+} */
+.search{
+    display: flex;
+}
+.navbar{
+    --bs-navbar-padding-y: -0.5rem;
+}
+/* .banner-form{
+    margin: 150px 327px;
+} */
+#formsearch{
+    z-index: 1000;
+    background:transparent url(/search.png) 10px 50% no-repeat;
+    margin: 150px 327px;
+}
+.loginsignup{
+    text-decoration: none;
+}
+.collection{
+    position: absolute;
+    align-content: center;
+    left: 170px;
+}
